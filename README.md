@@ -1,4 +1,4 @@
-# FORMTASTIC REGEX INPUT
+# Ativeadmin Regex Filter Input
 
 ## Description
 
@@ -29,8 +29,8 @@ In the index section of activeadmin controller:
 ```ruby
 filter :sample_regex,
          as: :regex,
-         regex: ']d+',
+         regex: '/d+',
          example: '123'
 ```
 
-The regex option is the string representation of the regex. This must compatible with javascript default regex engine.
+The regex option is the string representation of the regex. This must compatible with javascript default regex engine. Currently the server side validation isn't included.
