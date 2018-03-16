@@ -9,20 +9,16 @@ A simple filter input for active admin with checking at client if input match pr
 ## Dependency
 
 * activeadmin 1.0.0 pre
-* rails-assets-webui-popover (Require manual install)
-* jquery-rails 3.1
 
 ## Installation
 
 Add following lines to the Gemfile:
 
 ```ruby
-gem 'rails-assets-webui-popover', source: 'https://rails-assets.org'
 gem 'activeadmin-regex-input', '~> 0.1'
 ```
 
 Then execute `bundle` to install to your activeadmin project.
-
 
 ## Usage
 In the index section of activeadmin controller:
@@ -34,3 +30,7 @@ filter :sample_regex,
 ```
 
 The regex option is the string representation of the regex. This must compatible with javascript default regex engine. Currently the server side validation isn't included.
+
+## Thanks
+
+Thank sandywalker for beautiful jquery popover library [webui-popover](https://github.com/sandywalker/webui-popover).

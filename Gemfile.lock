@@ -1,9 +1,8 @@
 PATH
   remote: .
   specs:
-    activeadmin-regex-input (0.0.0)
-      activeadmin (~> 1.0)
-      jquery-rails
+    activeadmin-regex-input (0.2.0)
+      activeadmin
 
 GEM
   remote: https://rubygems.org/
