@@ -37,7 +37,7 @@ function initRegexInputs(inputs) {
 
     // Show popover and change color if current input doesn't match regex
     input.on('keyup', event => {
-      if (!regex.test(input.val())) {
+      if (!regex.test(input.val()) && !(input.val() === '' || input.val() === null)) {
         input.css('border-color', 'red');
         input.webuiPopover('show');
       } else {
