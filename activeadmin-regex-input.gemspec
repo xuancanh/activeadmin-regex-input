@@ -4,7 +4,7 @@ require 'activeadmin/regex-input/version'
 
 Gem::Specification.new do |s|
   s.name        = 'activeadmin-regex-input'
-  s.version     = '0.2.0'
+  s.version     = '0.2.1'
   s.date        = '2018-03-14'
   s.summary     = "Active Admin Regex Input"
   s.description = "A simple filter input for active admin with checking at client if input match predefined regex."

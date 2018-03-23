@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    activeadmin-regex-input (0.2.0)
+    activeadmin-regex-input (0.2.1)
       activeadmin
 
 GEM
